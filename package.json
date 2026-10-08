@@ -1,0 +1,12 @@
+{
+  "name": "rescue-evolution",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 5173 --bind 127.0.0.1",
+    "test": "node test.mjs && node test-curriculum.mjs",
+    "benchmark": "node benchmark.mjs",
+    "benchmark:curriculum": "node curriculum-benchmark.mjs",
+    "build": "node build.mjs"
+  }
+}
